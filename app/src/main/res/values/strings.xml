@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DC Guide</string>
+    <string name="night_life">Nightlife</string>
+    <string name="dining">Good Eats</string>
+    <string name="historical_landmarks">Historical Landmarks</string>
+    <string name="academia">Universities</string>
+</resources>
