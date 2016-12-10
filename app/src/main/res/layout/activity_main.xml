@@ -8,26 +8,26 @@
     tools:context="com.example.android.dcguide.MainActivity">
 
     <TextView
+        android:id="@+id/nightlife"
         style="@style/CategoryStyle"
         android:background="@color/nightlifeBlack"
-        android:text="@string/night_life"
-        android:id="@+id/nightlife"/>
+        android:text="@string/night_life" />
 
     <TextView
+        android:id="@+id/goodEats"
         style="@style/CategoryStyle"
         android:background="@color/dinerBlue"
-        android:text="@string/dining"
-        android:id="@+id/goodEats"/>
+        android:text="@string/dining" />
 
     <TextView
+        android:id="@+id/historicalLandmarks"
         style="@style/CategoryStyle"
         android:background="@color/historyOrange"
-        android:text="@string/historical_landmarks"
-        android:id="@+id/historicalLandmarks"/>
+        android:text="@string/historical_landmarks" />
 
     <TextView
+        android:id="@+id/universities"
         style="@style/CategoryStyle"
         android:background="@color/academiaGold"
-        android:text="@string/academia"
-        android:id="@+id/universities"/>
+        android:text="@string/academia" />
 </LinearLayout>

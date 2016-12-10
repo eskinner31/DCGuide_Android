@@ -17,4 +17,9 @@
         android:text="@string/night_life"
         android:textAllCaps="true"/>
 
+    <ListView
+        android:id="@+id/nightlife_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
 </LinearLayout>
