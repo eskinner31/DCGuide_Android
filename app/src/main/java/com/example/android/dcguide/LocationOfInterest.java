@@ -8,7 +8,8 @@ public class LocationOfInterest {
 
     private String mLocationName;
     private String mDescription;
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMG_PROVIDED;
+    private static final int NO_IMG_PROVIDED = -1;
 
     public LocationOfInterest(String locationName, String description) {
         mLocationName = locationName;
@@ -32,5 +33,7 @@ public class LocationOfInterest {
     public int getImageResourceId() {
         return mImageResourceId;
     }
+
+    public boolean hasImage() {return mImageResourceId != NO_IMG_PROVIDED;}
 
 }

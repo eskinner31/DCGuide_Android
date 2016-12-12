@@ -23,7 +23,7 @@ public class HistoricalLandmarkActivity extends AppCompatActivity {
         historicLandmarkList.add(new LocationOfInterest("National Museum of the American Indian", "Located in Southwest DC, dedicated to the culture of the Native American"));
         historicLandmarkList.add(new LocationOfInterest("United States Holocaust Museum", "Official US memorial to the Holocaust, located adjacent to the National Mall."));
 
-        landmarkAdapter = new LocationArrayAdapter(this, historicLandmarkList);
+        landmarkAdapter = new LocationArrayAdapter(this, historicLandmarkList, R.color.historyOrange);
 
         ListView historicListView = (ListView) findViewById(R.id.historical_list);
         historicListView.setAdapter(landmarkAdapter);

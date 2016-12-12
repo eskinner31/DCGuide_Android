@@ -23,7 +23,7 @@ public class DiningActivity extends AppCompatActivity {
         diningLocations.add(new LocationOfInterest("Red Hen", "Old School Italian spot located in the Shaw neighborhood of DC"));
         diningLocations.add(new LocationOfInterest("Taj of India", "Bright up and coming Indian spot located deep in Georgetown"));
 
-        dinersAdapter = new LocationArrayAdapter(this, diningLocations);
+        dinersAdapter = new LocationArrayAdapter(this, diningLocations, R.color.dinerBlue);
 
         ListView dinerList = (ListView) findViewById(R.id.dining_list);
         dinerList.setAdapter(dinersAdapter);

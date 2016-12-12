@@ -22,7 +22,7 @@ public class UniversityActivity extends AppCompatActivity {
         universities.add(new LocationOfInterest("George Washington Univesity", "Private Research University located in the Foggy Bottom neighborhood"));
         universities.add(new LocationOfInterest("American University", "Because why not have a school with America in it's name in the Nations Capital"));
 
-        LocationArrayAdapter universityAdapter = new LocationArrayAdapter(this, universities);
+        LocationArrayAdapter universityAdapter = new LocationArrayAdapter(this, universities, R.color.academiaGold);
 
         ListView universityList = (ListView) findViewById(R.id.univeristy_list);
         universityList.setAdapter(universityAdapter);
