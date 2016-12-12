@@ -24,7 +24,7 @@ public class NightLifeActivity extends AppCompatActivity {
         venues.add(new LocationOfInterest("Echostage", "Mega Concert Venue hosting large electronic acts in Northwest DC", R.drawable.place_holder));
         venues.add(new LocationOfInterest("Lima Lounge", "Super Expensive Club located in the heart of the city... Never Go There unless you want to lose money", R.drawable.place_holder));
 
-        venueAdapter = new LocationArrayAdapter(this, venues, R.color.colorPrimary);
+        venueAdapter = new LocationArrayAdapter(this, venues, R.color.nightlifePurple);
 
         nightClubListView = (ListView) findViewById(R.id.nightlife_list);
         nightClubListView.setAdapter(venueAdapter);

@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/nightlife"
         style="@style/CategoryStyle"
-        android:background="@color/nightlifeBlack"
+        android:background="@color/nightlifePurple"
         android:text="@string/night_life" />
 
     <TextView
