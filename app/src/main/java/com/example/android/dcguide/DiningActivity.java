@@ -17,11 +17,11 @@ public class DiningActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dining);
 
         diningLocations = new ArrayList<LocationOfInterest>();
-        diningLocations.add(new LocationOfInterest("Daikaya", "Top Notch Ramen shop in the heart of Chinatown."));
-        diningLocations.add(new LocationOfInterest("Dumplings and Beyond", "The most delicious dumpling shop located off of Wisconsin Ave."));
-        diningLocations.add(new LocationOfInterest("Rito Loco", "All Meat, All Over, greatest Tacos and Burrito shop located off of U Street."));
-        diningLocations.add(new LocationOfInterest("Red Hen", "Old School Italian spot located in the Shaw neighborhood of DC"));
-        diningLocations.add(new LocationOfInterest("Taj of India", "Bright up and coming Indian spot located deep in Georgetown"));
+        diningLocations.add(new LocationOfInterest(getString(R.string.daikaya), getString(R.string.daikaya_desc)));
+        diningLocations.add(new LocationOfInterest(getString(R.string.taj_india), getString(R.string.taj_desc)));
+        diningLocations.add(new LocationOfInterest(getString(R.string.red_hen), getString(R.string.red_hen_desc)));
+        diningLocations.add(new LocationOfInterest(getString(R.string.dumplings_beyond), getString(R.string.dumplings_desc)));
+        diningLocations.add(new LocationOfInterest(getString(R.string.rito_loco), getString(R.string.rito_desc)));
 
         dinersAdapter = new LocationArrayAdapter(this, diningLocations, R.color.dinerBlue);
 

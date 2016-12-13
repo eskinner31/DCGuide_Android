@@ -17,11 +17,11 @@ public class HistoricalLandmarkActivity extends AppCompatActivity {
         setContentView(R.layout.activity_historical_landmark);
 
         historicLandmarkList = new ArrayList<LocationOfInterest>();
-        historicLandmarkList.add(new LocationOfInterest("Smithsonian American Art Museum", "Art museum located in Northwest DC"));
-        historicLandmarkList.add(new LocationOfInterest("National Museum of African American History and Culture", "Recently opened African American Museum located off of Constitution Ave."));
-        historicLandmarkList.add(new LocationOfInterest("National Air and Space Museum", "Largest collection of historical aircraft, located in Southwest DC"));
-        historicLandmarkList.add(new LocationOfInterest("National Museum of the American Indian", "Located in Southwest DC, dedicated to the culture of the Native American"));
-        historicLandmarkList.add(new LocationOfInterest("United States Holocaust Museum", "Official US memorial to the Holocaust, located adjacent to the National Mall."));
+        historicLandmarkList.add(new LocationOfInterest(getString(R.string.smithsonian_american_art), getString(R.string.smithsonian_american_art_desc)));
+        historicLandmarkList.add(new LocationOfInterest(getString(R.string.african_american_museum), getString(R.string.african_american_museum_desc)));
+        historicLandmarkList.add(new LocationOfInterest(getString(R.string.air_space_museum), getString(R.string.air_space_museum_desc)));
+        historicLandmarkList.add(new LocationOfInterest(getString(R.string.native_american_museum), getString(R.string.native_american_museum_desc)));
+        historicLandmarkList.add(new LocationOfInterest(getString(R.string.holocaust_museum), getString(R.string.holocaust_museum_desc)));
 
         landmarkAdapter = new LocationArrayAdapter(this, historicLandmarkList, R.color.historyOrange);
 

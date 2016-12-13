@@ -16,11 +16,11 @@ public class UniversityActivity extends AppCompatActivity {
         setContentView(R.layout.activity_university);
 
         universities = new ArrayList<LocationOfInterest>();
-        universities.add(new LocationOfInterest("Georgetown University", "Beautiful campus located in the heart of Georgetown with a popping bar scene"));
-        universities.add(new LocationOfInterest("Howard University", "HBCU campus located off the U Street Corridor"));
-        universities.add(new LocationOfInterest("Gallaudet University", "University chartered for the education of the deaf located off Florida Ave"));
-        universities.add(new LocationOfInterest("George Washington Univesity", "Private Research University located in the Foggy Bottom neighborhood"));
-        universities.add(new LocationOfInterest("American University", "Because why not have a school with America in it's name in the Nations Capital"));
+        universities.add(new LocationOfInterest(getString(R.string.georgetown), getString(R.string.georgetown_desc)));
+        universities.add(new LocationOfInterest(getString(R.string.american), getString(R.string.american_desc)));
+        universities.add(new LocationOfInterest(getString(R.string.howard), getString(R.string.howard_desc)));
+        universities.add(new LocationOfInterest(getString(R.string.gallaudet), getString(R.string.gallaudet_desc)));
+        universities.add(new LocationOfInterest(getString(R.string.washington), getString(R.string.washington_desc)));
 
         LocationArrayAdapter universityAdapter = new LocationArrayAdapter(this, universities, R.color.academiaGold);
 

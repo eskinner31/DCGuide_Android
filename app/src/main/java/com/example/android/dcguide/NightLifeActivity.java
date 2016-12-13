@@ -18,11 +18,11 @@ public class NightLifeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_night_life);
 
         venues = new ArrayList<LocationOfInterest>();
-        venues.add(new LocationOfInterest("U Street Music Hall", "Underground Techno Venue, on the U Street Corridor", R.drawable.place_holder));
-        venues.add(new LocationOfInterest("Flash Nightclub", "Up and coming forward thinking music venue off of the U Street Corridor", R.drawable.place_holder));
-        venues.add(new LocationOfInterest("Town Nightclub", "Largest LGBTQ friendly venue located near Howard University", R.drawable.place_holder));
-        venues.add(new LocationOfInterest("Echostage", "Mega Concert Venue hosting large electronic acts in Northwest DC", R.drawable.place_holder));
-        venues.add(new LocationOfInterest("Lima Lounge", "Super Expensive Club located in the heart of the city... Never Go There unless you want to lose money", R.drawable.place_holder));
+        venues.add(new LocationOfInterest(getString(R.string.u_hall), getString(R.string.u_hall_desc), R.drawable.uhalldc));
+        venues.add(new LocationOfInterest(getString(R.string.flash), getString(R.string.flash_desc), R.drawable.flashdc));
+        venues.add(new LocationOfInterest(getString(R.string.town), getString(R.string.town_desc), R.drawable.town));
+        venues.add(new LocationOfInterest(getString(R.string.echostage), getString(R.string.echostage_desc), R.drawable.echostage_dc));
+        venues.add(new LocationOfInterest(getString(R.string.lima), getString(R.string.lima_desc), R.drawable.lima_dc));
 
         venueAdapter = new LocationArrayAdapter(this, venues, R.color.nightlifePurple);
 

@@ -4,4 +4,52 @@
     <string name="dining">Good Eats</string>
     <string name="historical_landmarks">Historical Landmarks</string>
     <string name="academia">Universities</string>
+
+    <!--Dining Strings for Object Instantiation-->
+    <string name="daikaya">Daikaya</string>
+    <string name="daikaya_desc">Top Notch Ramen Shop in the Heart of Chinatown</string>
+    <string name="dumplings_beyond">Dumplings and Beyond</string>
+    <string name="dumplings_desc">The most delicious dumpling shop located off of Wisconsin Ave</string>
+    <string name="rito_loco">Rito Loco</string>
+    <string name="rito_desc">All Meat, All Over, greatest Tacos and Burrito shop located off of U Street</string>
+    <string name="red_hen">Red Hen</string>
+    <string name="red_hen_desc">Old School Italian spot located in the Shaw neighborhood of DC</string>
+    <string name="taj_india">Taj of India</string>
+    <string name="taj_desc">Bright up and coming Indian spot located deep in Georgetown</string>
+
+    <!--Venue Strings for Object Instantiation-->
+    <string name="u_hall">U Street Music Hall</string>
+    <string name="u_hall_desc">Underground Techno Venue, on the U Street Corridor</string>
+    <string name="flash">Flash Nightclub</string>
+    <string name="flash_desc">Up and coming forward thinking music venue off of U Street Corridor</string>
+    <string name="town">Town Nightclub</string>
+    <string name="town_desc">Largest LGBTQ friendly venue located near Howard University</string>
+    <string name="echostage">Echostage</string>
+    <string name="echostage_desc">Mega Concert Venue hosting large electronic acts in Northwest DC</string>
+    <string name="lima">Lima Lounge</string>
+    <string name="lima_desc">Super Expensive Club located in the heart of the city... Never go there.</string>
+
+    <!--University Strings for Object Instantiation-->
+    <string name="georgetown">Georgetown University</string>
+    <string name="georgetown_desc">Beautiful campus located in the heart of Georgetown with a popping bar scene</string>
+    <string name="howard">Howard University</string>
+    <string name="howard_desc">HBCU campus located off the U Street Corridor</string>
+    <string name="gallaudet">Gallaudet University</string>
+    <string name="gallaudet_desc">University chartered for the education of the deaf located off Florida Ave</string>
+    <string name="washington">Washington University</string>
+    <string name="washington_desc">Private Research University located in the Foggy Bottom neighborhood</string>
+    <string name="american">American University</string>
+    <string name="american_desc">Because why not have a school with America in it\'s name in the Nations Capital</string>
+
+    <!--Historical Strings for Object Instantiation-->
+    <string name="smithsonian_american_art">Smithsonian American Art Museum</string>
+    <string name="smithsonian_american_art_desc">Art museum located in Northwest DC</string>
+    <string name="african_american_museum">National Museum of African American History and Culture</string>
+    <string name="african_american_museum_desc">Recently opened African American Museum located off of Constitution Ave.</string>
+    <string name="air_space_museum">National Air and Space Museum</string>
+    <string name="air_space_museum_desc">Largest collection of historical aircraft, located in Southwest DC</string>
+    <string name="native_american_museum">National Museum of the American Indian</string>
+    <string name="native_american_museum_desc">Located in Southwest DC, dedicated to the culture of the Native American</string>
+    <string name="holocaust_museum">United States Holocaust Museum</string>
+    <string name="holocaust_museum_desc">Official US memorial to the Holocaust, located adjacent to the National Mall.</string>
 </resources>
